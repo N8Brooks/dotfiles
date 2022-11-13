@@ -1,0 +1,7 @@
+reporting: "on"
+startuppopupversion: 1
+gui:
+  theme:
+    lightTheme: true
+    inactiveBorderColor:
+      - "#6c6f85" # catppuccin latte subtext0
