@@ -60,6 +60,6 @@ function GetRandomSplash()
   local upper_letters = chars(string.upper(splash))
   local block_letters = map(upper_letters, get_block_letter)
   local block_lines = map(transpose(block_letters), concat_block_line)
-  return table.concat(block_lines, "\n")
+  return block_lines
 end
 

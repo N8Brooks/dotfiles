@@ -1,7 +1,7 @@
 --              AstroNvim Configuration Table
 -- All configuration changes should go inside of the table below
 
-require "user/get_random_splash"
+require "user.get_random_splash"
 
 -- You can think of a Lua "table" as a dictionary like data structure the
 -- normal format is "key = value". These also handle array like data structures
@@ -228,7 +228,7 @@ local config = {
       --     require("lsp_signature").setup()
       --   end,
       -- },
-      { "catppuccin/nvim", as = "catppuccin" },
+      { "catppuccin/nvim", as = "catppuccin" }
     },
     -- All other entries override the require("<key>").setup({...}) call for default plugins
     ["null-ls"] = function(config) -- overrides `require("null-ls").setup(config)`
