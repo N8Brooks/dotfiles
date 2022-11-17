@@ -19,3 +19,12 @@
   type = "file"
   url = "https://raw.githubusercontent.com/catppuccin/zsh-syntax-highlighting/main/themes/catppuccin_latte-zsh-syntax-highlighting.zsh"
   refreshPeriod = "168h"
+[".local/share/fonts/"]
+  type = "archive"
+  url = "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/JetBrainsMono.zip"
+  include = [
+    "JetBrains Mono Bold Italic Nerd Font Complete Mono.ttf",
+    "JetBrains Mono Bold Nerd Font Complete Mono.ttf",
+    "JetBrains Mono Italic Nerd Font Complete Mono.ttf",
+    "JetBrains Mono Regular Nerd Font Complete Mono.ttf",
+  ]
