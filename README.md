@@ -26,10 +26,14 @@ chezmoi init --apply N8Brooks
 * [ripgrep](https://github.com/BurntSushi/ripgrep)
 * [lazygit](https://github.com/jesseduffield/lazygit)
 * [bacon](https://github.com/Canop/bacon)
-* [nerd fonts](https://www.nerdfonts.com/font-downloads)
 * [neovim](https://github.com/neovim/neovim/releases/tag/v0.8.0)
 * runtimes, compilers, etc
   * rust
   * anaconda
   * nvm
   * deno
+
+## Wishlist
+
+* Chrome breakpoints? Vimspector?
+* Remote sync with local workflow.
