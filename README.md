@@ -32,6 +32,7 @@ chezmoi init --apply N8Brooks
   * anaconda
   * nvm
   * deno
+* [rectangle](https://github.com/rxhanson/Rectangle)
 
 ## Wishlist
 
