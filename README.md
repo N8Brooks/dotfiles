@@ -32,7 +32,8 @@ chezmoi init --apply N8Brooks
   * nvm
   * deno
 * [rectangle](https://github.com/rxhanson/Rectangle)
-* [docker](https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script)
+* [docker-engine](https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script)
+* [docker-desktop](https://docs.docker.com/desktop/install/ubuntu/)
 * [kubernetes](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/#installing-kubeadm-kubelet-and-kubectl)
 
 ## Wishlist
