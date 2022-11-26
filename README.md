@@ -17,7 +17,6 @@ chezmoi init --apply N8Brooks
 * Individual zshrc things for different comps
 * Fix up the script for spash screens
 * Add tmux color support according to oh-my-zsh wiki
-* Clipboard support
 
 ## Tools I use, but haven't been added to my dotfiles.
 
@@ -33,6 +32,8 @@ chezmoi init --apply N8Brooks
   * nvm
   * deno
 * [rectangle](https://github.com/rxhanson/Rectangle)
+* [docker](https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script)
+* [kubernetes](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/#installing-kubeadm-kubelet-and-kubectl)
 
 ## Wishlist
 
