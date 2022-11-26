@@ -15,7 +15,12 @@
   stripComponents = 1
   refreshPeriod = "168h"
   include = ["*/*.zsh", "*/.version", "*/.revision-hash", "*/highlighters/**"]
-[".zsh/catppuccin_latte-zsh-syntax-highlighting.zsh"]
+[".oh-my-zsh/custom/plugins/zsh-defer"]
+  type = "archive"
+  url = "https://github.com/romkatv/zsh-defer/archive/master.tar.gz"
+  exact = true
+  stripComponents = 1
+[".oh-my-zsh/custom/plugins/catppuccin_latte-zsh-syntax-highlighting/catppuccin_latte-zsh-syntax-highlighting.plugin.zsh"]
   type = "file"
   url = "https://raw.githubusercontent.com/catppuccin/zsh-syntax-highlighting/main/themes/catppuccin_latte-zsh-syntax-highlighting.zsh"
   refreshPeriod = "168h"
