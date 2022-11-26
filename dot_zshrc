@@ -78,12 +78,17 @@ plugins=(
   git
   vi-mode
   tmux
+  # Custom plugins
+  zsh-defe
   catppuccin_latte-zsh-syntax-highlighting # load before zsh-syntax-highlighting
   zsh-syntax-highlighting # must be sourced last
 )
 
 source $ZSH/oh-my-zsh.sh
 
+# Defered source files
+zsh-defer source $HOME/.config/nvm/nvm.sh # This loads nvm
+zsh-defer source $HOME/.config/nvm/bash_completion # This loads nvm bash_completion
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
