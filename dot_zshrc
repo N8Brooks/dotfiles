@@ -75,9 +75,15 @@ DISABLE_AUTO_UPDATE=true
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+  # aliases
   git
-  vi-mode
+  gh
+  kubectl
+  nvm
   tmux
+  vi-mode
+  ripgrep
+  rust
   # Custom plugins
   zsh-defer
   catppuccin_latte-zsh-syntax-highlighting # load before zsh-syntax-highlighting
