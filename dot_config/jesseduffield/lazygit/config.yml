@@ -5,3 +5,4 @@ gui:
     lightTheme: true
     inactiveBorderColor:
       - "#6c6f85" # catppuccin latte subtext0
+notARepository: "skip"
