@@ -101,7 +101,7 @@ zsh-defer source $HOME/.config/nvm/bash_completion # This loads nvm bash_complet
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
-export CDPATH="$HOME:.." # Easily navigate to home and sibling directories
+export CDPATH="$HOME:..:$HOME/Projects" # Easily navigate to home, sibling directories, and projects
 export HISTCONTROL=ignoredups # Do not append repeated commands to history
 export HISTSIZE=65536 # max lines contained in history
 export XDG_CONFIG_HOME="$HOME/.config" # Separate AstroVim user configuration from cloned repo
