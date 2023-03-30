@@ -126,6 +126,21 @@ local config = {
 
 	-- Extend LSP configuration
 	lsp = {
+		setup_handlers = {
+			-- add custom handler
+			denols = function(_, opts)
+				require("deno-nvim").setup({ server = opts })
+			end,
+		},
+		plugins = {
+			"sigmasd/deno-nvim", -- add lsp plugin
+			{
+				"williamboman/mason-lspconfig.nvim",
+				opts = {
+					ensure_installed = { "denols" }, -- automatically install lsp
+				},
+			},
+		},
 		-- enable servers that you already have installed without mason
 		servers = {
 			-- "pyright"
