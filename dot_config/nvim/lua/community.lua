@@ -26,6 +26,7 @@ return {
   { import = "astrocommunity.git.git-blame-nvim" },
 
   -- pack
+  { import = "astrocommunity.pack.chezmoi" },
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.go" },
