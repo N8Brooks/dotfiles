@@ -4,6 +4,7 @@
 # exact = true
 # stripComponents = 1
 # refreshPeriod = "168h"
+
 # [".oh-my-zsh/custom/plugins/zsh-syntax-highlighting"]
 # type = "archive"
 # url = "https://github.com/zsh-users/zsh-syntax-highlighting/archive/master.tar.gz"
@@ -11,15 +12,35 @@
 # stripComponents = 1
 # refreshPeriod = "168h"
 # include = ["*/*.zsh", "*/.version", "*/.revision-hash", "*/highlighters/**"]
+
 # [".oh-my-zsh/custom/plugins/zsh-defer"]
 # type = "archive"
 # url = "https://github.com/romkatv/zsh-defer/archive/master.tar.gz"
 # exact = true
 # stripComponents = 1
+
 # [".oh-my-zsh/custom/plugins/catppuccin_latte-zsh-syntax-highlighting/catppuccin_latte-zsh-syntax-highlighting.plugin.zsh"]
 # type = "file"
 # url = "https://raw.githubusercontent.com/catppuccin/zsh-syntax-highlighting/main/themes/catppuccin_latte-zsh-syntax-highlighting.zsh"
 # refreshPeriod = "168h"
+
+# TODO: These can be opened with `for f in ~/.config/iterm/colors/*.itermcolors; do open "$f"; done`
+[".config/iterm/colors/catppuccin-frappe.itermcolors"]
+type = "file"
+url = "https://raw.githubusercontent.com/catppuccin/iterm/b2936a6e55270fcc55421b1bb7d5fd194a489591/colors/catppuccin-frappe.itermcolors"
+
+[".config/iterm/colors/catppuccin-latte.itermcolors"]
+type = "file"
+url = "https://raw.githubusercontent.com/catppuccin/iterm/b2936a6e55270fcc55421b1bb7d5fd194a489591/colors/catppuccin-latte.itermcolors"
+
+[".config/iterm/colors/catppuccin-macchiato.itermcolors"]
+type = "file"
+url = "https://raw.githubusercontent.com/catppuccin/iterm/b2936a6e55270fcc55421b1bb7d5fd194a489591/colors/catppuccin-macchiato.itermcolors"
+
+[".config/iterm/colors/catppuccin-mocha.itermcolors"]
+type = "file"
+url = "https://raw.githubusercontent.com/catppuccin/iterm/b2936a6e55270fcc55421b1bb7d5fd194a489591/colors/catppuccin-mocha.itermcolors"
+
 [".local/share/fonts/"]
 type = "archive"
 url = "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/JetBrainsMono.zip"
