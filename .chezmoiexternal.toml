@@ -40,13 +40,3 @@ url = "https://raw.githubusercontent.com/catppuccin/iterm/b2936a6e55270fcc55421b
 [".config/iterm/colors/catppuccin-mocha.itermcolors"]
 type = "file"
 url = "https://raw.githubusercontent.com/catppuccin/iterm/b2936a6e55270fcc55421b1bb7d5fd194a489591/colors/catppuccin-mocha.itermcolors"
-
-[".local/share/fonts/"]
-type = "archive"
-url = "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/JetBrainsMono.zip"
-include = [
-  "JetBrains Mono Bold Italic Nerd Font Complete Mono.ttf",
-  "JetBrains Mono Bold Nerd Font Complete Mono.ttf",
-  "JetBrains Mono Italic Nerd Font Complete Mono.ttf",
-  "JetBrains Mono Regular Nerd Font Complete Mono.ttf",
-]
