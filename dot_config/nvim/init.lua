@@ -23,5 +23,10 @@ if not pcall(require, "lazy") then
   vim.cmd.quit()
 end
 
+-- make both option (alt) keys send <M-...> in Neovide on macOS
+if vim.g.neovide and vim.fn.has("mac") == 1 then
+  vim.g.neovide_input_macos_option_key_is_meta = "both"
+end
+
 require "lazy_setup"
 require "polish"
